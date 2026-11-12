@@ -34,7 +34,7 @@ export default function ContactPage() {
         <header className={styles.pageHeader}>
           <h1>Get in Touch</h1>
           <p className={styles.pageDescription}>
-            I'm always open to discussing new projects, collaboration opportunities, 
+            I&apos;m always open to discussing new projects, collaboration opportunities, 
             or just having a chat about machine learning and AI.
           </p>
         </header>

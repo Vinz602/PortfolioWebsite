@@ -56,8 +56,8 @@ export function getProjectBySlug(slug: string): Project | null {
       return null;
     }
 
-    // Convert markdown to HTML
-    const htmlContent = marked(content);
+    // Convert markdown to HTML (sync parse — marked can return Promise when async)
+    const htmlContent = marked.parse(content, { async: false }) as string;
 
     return {
       slug,

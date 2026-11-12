@@ -23,13 +23,14 @@ export default function CategoryFilter({
   onCategoryChange,
 }: CategoryFilterProps) {
   return (
-    <div className={styles.filterContainer} role="tablist" aria-label="Project categories">
+    <div className={styles.filterContainer} role="group" aria-label="Project categories">
       {categories.map((category) => (
         <button
           key={category}
+          type="button"
           className={`${styles.filterButton} ${activeCategory === category ? styles.active : ''}`}
           onClick={() => onCategoryChange(category)}
-          role="button"
+          aria-pressed={activeCategory === category}
           aria-label={`Filter by ${category}`}
         >
           {CATEGORY_LABELS[category]}
