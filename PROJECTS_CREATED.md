@@ -44,17 +44,28 @@ I've created 8 professional project pages from your GitHub repositories! 🎉
 - PostgreSQL + Prisma ORM
 - Deployed on Railway + Vercel
 
-### 5. Medical X-Ray Disease Classification ⭐ NEW!
+### 5. Medical X-Ray Disease Classification ⭐
 **File:** `xray-disease-classification.md`  
 **Category:** Computer Vision  
 **Featured:** Yes  
 **Highlights:**
 - ConvNeXt Tiny for 5-class medical diagnosis
 - COVID-19, pneumonia, TB detection
-- Live Streamlit demo deployed
+- Streamlit application
 - Health recommendations system
 
-### 6. Phrase-Level Sentiment Analysis NEW!
+### 6. ASL Gesture Recognition System ⭐ NEW!
+**File:** `asl-gesture-recognition.md`  
+**Category:** Computer Vision  
+**Featured:** Yes  
+**Highlights:**
+- Real-time American Sign Language recognition
+- Live webcam detection with React frontend
+- CNN trained on ASL alphabet (A-Z)
+- Deployed on Vercel with live demo
+- Team project (7 contributors)
+
+### 7. Phrase-Level Sentiment Analysis
 **File:** `phrase-level-sentiment-analysis.md`  
 **Category:** NLP  
 **Featured:** No  
@@ -64,7 +75,7 @@ I've created 8 professional project pages from your GitHub repositories! 🎉
 - Real-time text analysis
 - Mixed sentiment detection
 
-### 7. Neural Network From Scratch
+### 8. Neural Network From Scratch
 **File:** `neural-network-from-scratch.md`  
 **Category:** Deep Learning  
 **Featured:** No  
@@ -74,7 +85,7 @@ I've created 8 professional project pages from your GitHub repositories! 🎉
 - 99.7% accuracy on toy dataset
 - Educational backpropagation
 
-### 8. Heart Disease Prediction
+### 9. Heart Disease Prediction
 **File:** `heart-health-prediction.md`  
 **Category:** Data Analysis  
 **Featured:** No  
@@ -88,13 +99,14 @@ I've created 8 professional project pages from your GitHub repositories! 🎉
 
 ## 📊 Portfolio Stats
 
-- **Total Projects:** 8
-- **Featured Projects:** 5 (shown on homepage)
-- **Computer Vision:** 1 project
+- **Total Projects:** 9
+- **Featured Projects:** 6 (shown on homepage)
+- **Computer Vision:** 2 projects
 - **Deep Learning:** 3 projects
 - **NLP:** 1 project
 - **Data Analysis:** 3 projects
-- **Technologies Covered:** 40+ (Python, PyTorch, React, Node.js, etc.)
+- **Technologies Covered:** 45+ (Python, PyTorch, React, Node.js, etc.)
+- **Live Demos:** 2 (ASL Recognition, Sentiment Analysis)
 
 ---
 

@@ -20,9 +20,9 @@ export default function AboutPage() {
         {/* Bio Section */}
         <section className={styles.bioSection}>
           <div className={styles.bioContent}>
-          <h2>Hi, I'm Vincent Christian Atmadjaya</h2>
+          <h2>Hi, I&apos;m Vincent Christian Atmadjaya</h2>
             <p>
-              I'm a machine learning engineer and data scientist passionate about building 
+              I&apos;m a machine learning engineer and data scientist passionate about building 
               intelligent systems that solve real-world problems. With a strong foundation 
               in computer science and years of experience in ML/AI, I specialize in developing 
               end-to-end solutions from research to production.
@@ -33,7 +33,7 @@ export default function AboutPage() {
               learning, which is why I share my projects and insights with the community.
             </p>
             <p>
-              When I'm not training models or analyzing data, you can find me contributing to 
+              When I&apos;m not training models or analyzing data, you can find me contributing to 
               open-source projects, writing technical blog posts, or exploring the latest 
               research papers in machine learning.
             </p>

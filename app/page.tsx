@@ -51,7 +51,7 @@ export default function HomePage() {
       <section className={styles.ctaSection}>
         <div className="container">
           <h2>Interested in Collaboration?</h2>
-          <p>Let's discuss how we can work together on your next ML project</p>
+          <p>Let&apos;s discuss how we can work together on your next ML project</p>
           <Link href="/contact/" className={styles.primaryButton}>
             Contact Me
           </Link>

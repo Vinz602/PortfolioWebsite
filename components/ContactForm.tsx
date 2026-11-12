@@ -165,7 +165,7 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
       {/* Success Message */}
       {submitSuccess && (
         <div className={styles.successMessage} role="alert">
-          Thank you for your message! I'll get back to you soon.
+          Thank you for your message! I&apos;ll get back to you soon.
         </div>
       )}
 

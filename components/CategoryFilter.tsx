@@ -29,8 +29,7 @@ export default function CategoryFilter({
           key={category}
           className={`${styles.filterButton} ${activeCategory === category ? styles.active : ''}`}
           onClick={() => onCategoryChange(category)}
-          role="tab"
-          aria-pressed={activeCategory === category}
+          role="button"
           aria-label={`Filter by ${category}`}
         >
           {CATEGORY_LABELS[category]}
