@@ -1,0 +1,116 @@
+.contactPage {
+  padding: var(--spacing-3xl) 0;
+  min-height: 70vh;
+}
+
+.pageHeader {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.pageHeader h1 {
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.pageDescription {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-3xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .contactContent {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+.formContainer {
+  /* Form styles handled by ContactForm component */
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.contactInfo h2 {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.infoCard {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background-color: var(--color-background-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.infoIcon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(37, 99, 235, 0.1);
+  border-radius: var(--radius-md);
+  color: var(--color-primary);
+}
+
+.infoCard h3 {
+  font-size: var(--font-size-base);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xs);
+  font-weight: 600;
+}
+
+.infoCard p,
+.infoCard a {
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.infoCard a {
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+.infoCard a:hover {
+  color: var(--color-primary);
+}
+
+.responseTime {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background-color: rgba(16, 185, 129, 0.1);
+  border: 1px solid var(--color-success);
+  border-radius: var(--radius-md);
+  color: var(--color-success);
+}
+
+.responseTime svg {
+  flex-shrink: 0;
+}
+
+.responseTime p {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
